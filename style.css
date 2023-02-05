@@ -1,0 +1,37 @@
+body {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+#bag {
+  width: 200px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url('./img/bag.png');
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+#bag.brust {
+  background-image: url('./img/bag-burst.png');
+}
+
+#bag-health {
+  border: 2px solid #000;
+  width: 200px;
+  margin: 0 auto 20px auto;
+}
+
+#bag-health div {
+  background-color: red;
+  height: 20px;
+}
+
+#bag-controls {
+  margin: 0 auto;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
